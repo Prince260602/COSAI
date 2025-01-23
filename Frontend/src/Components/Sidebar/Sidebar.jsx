@@ -81,7 +81,7 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }) => (
             </button>
           </Link>
 
-          <Link to="/create-bot">
+          <Link to="/chatbot">
             <button className="w-32 bg-gray-100 text-[#000] dark:bg-[#242424] dark:hover:bg-slate-600 px-2 py-1 rounded-md hover:bg-gray-300 hover:text-black transition text-sm items-start mb-2 mt-2">
               <img
                 src={createbot}
@@ -91,7 +91,7 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }) => (
               />
               <div className="flex flex-row justify-evenly items-center">
                 <span className="text-sm sm:text-sm md:text-base lg:text-lg dark:text-white">
-                  Create Bot
+                  TEN Bot
                 </span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
