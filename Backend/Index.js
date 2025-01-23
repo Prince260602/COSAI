@@ -54,7 +54,7 @@ dotenv.config();
 
 
 const corsOptions = {
-  origin: "https://cosai.vercel.app", 
+  origin: "https://cosai.onrender.com", 
   methods: ["GET", "POST", "PUT", "DELETE"], 
   allowedHeaders: ["Content-Type", "Authorization"], 
 };
