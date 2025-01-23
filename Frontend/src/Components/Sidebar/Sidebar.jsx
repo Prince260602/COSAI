@@ -93,7 +93,7 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }) => (
                 <span className="text-sm sm:text-sm md:text-base lg:text-lg dark:text-white">
                   TEN Bot
                 </span>
-                <svg
+                {/* <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
@@ -105,7 +105,7 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }) => (
                     strokeLinejoin="round"
                     d="M12 4v16m8-8H4"
                   />
-                </svg>
+                </svg> */}
               </div>
             </button>
           </Link>
