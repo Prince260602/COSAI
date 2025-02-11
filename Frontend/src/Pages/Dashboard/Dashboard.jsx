@@ -38,7 +38,7 @@ const Dashboard = () => {
     setLoading(true); 
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/questions/ask",
+        "https://cosai.onrender.com/api/questions/ask",
         { question: searchText },
         {
           headers: {
