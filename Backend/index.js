@@ -35,6 +35,11 @@
 //   console.log(`Example app listening on port http://localhost:${PORT}`)
 // );
 
+
+
+
+
+
 const express = require("express");
 const app = express();
 const cookieParser = require("cookie-parser");
@@ -46,6 +51,7 @@ const adminRoute = require("./Routes/AdminRoute");
 const authRouter = require("./Routes/Auth.Router");
 const getUserRoute = require("./Routes/Auth.Router");
 const contactRoute = require("./Routes/Contact.Router");
+const questionRoutes = require("./Routes/questionRoutes.js");
 const dotenv = require("dotenv");
 const bodyParser = require("body-parser");
 const PORT = process.env.PORT || 5000;
@@ -73,6 +79,7 @@ app.get("/", (req, res) => res.send("Hello World!"));
 app.use("/api/auth", authRouter);
 app.use("/api/admin", adminRoute);
 app.use("/api", contactRoute);
+app.use("/api/questions", questionRoutes);
 app.use("/api/blogs", blogRoute);
 app.use("/api/auth", getUserRoute);
 
