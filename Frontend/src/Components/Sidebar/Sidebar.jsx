@@ -31,13 +31,13 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }) => (
           alignItems: "center",
           justifyContent: "space-between",
         }}>
-        <img
+{/*         <img
           src={logo}
           style={{ width: "40px", height: "40px", marginRight: "6px" }}
-        />
+        /> */}
         <div className="text-base md:text-base lg:text-lg xl:text-xl">
           {" "}
-          <Link to="/">TEN - Everything AI </Link>
+          <Link to="/"> Everything AI </Link>
         </div>
         <button onClick={toggleSidebar} className={`pl-[30px] pt-[5px]`}>
           <FontAwesomeIcon
@@ -91,7 +91,7 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }) => (
               />
               <div className="flex flex-row justify-evenly items-center">
                 <span className="text-sm sm:text-sm md:text-base lg:text-lg dark:text-white">
-                  TEN Bot
+                  THE Bot
                 </span>
                 {/* <svg
                   xmlns="http://www.w3.org/2000/svg"
