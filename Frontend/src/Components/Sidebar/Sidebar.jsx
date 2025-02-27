@@ -91,7 +91,7 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }) => (
               />
               <div className="flex flex-row justify-evenly items-center">
                 <span className="text-sm sm:text-sm md:text-base lg:text-lg dark:text-white">
-                  THE Bot
+                  The Bot
                 </span>
                 {/* <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -147,7 +147,7 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }) => (
                   }}
                 />
                 <span className="text-sm sm:text-sm md:text-base lg:text-lg">
-                  Ten Bot
+                  The Bot
                 </span>
               </Link>
             </li>
