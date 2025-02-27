@@ -107,7 +107,7 @@ const Dashboard = () => {
       <div className="h-11"></div>
       <div className="h-10"></div>
       <div className="flex items-center justify-center gap-4 mt-18 mb-9">
-        <img src={logo} alt="Logo" className="h-24 mt-4 mb-4" />
+{/*         <img src={logo} alt="Logo" className="h-24 mt-4 mb-4" /> */}
         <span className="dark:text-white text-xl font-semibold">
           Everything AI
         </span>
